@@ -1,0 +1,46 @@
+#firstDiv {
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/pngtree-cartoon-cute-little-rabbit-png-transparent-bottom-png-image_4526182.jpg');
+}
+
+#secondDiv {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/download.jpeg');
+}
+
+#thirdDiv {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/mick.jpeg');
+}
+
+#fourthDiv {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/1586620382_maxresdefault.jpg');
+}
+
+
+span {
+    color: white;
+    background-color: green;
+    font-size: 40px;
+}
+
+#secondDiv span {
+    background-color: pink;
+    font-size: 40px;
+
+}
+
+#fourthDiv h1 {
+    background-color: orange;
+    font-size: 40px;
+}
+
+#fourthDiv p {
+    color: white;
+    font-size: 40px;
+}
