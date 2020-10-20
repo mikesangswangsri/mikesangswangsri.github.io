@@ -1,0 +1,26 @@
+    body {
+        background-image: url(../images/1586620382_maxresdefault.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    h1{
+		color:orange
+	}
+	p{
+		color:orangered
+	}
+    .pinkText {
+        color:green;
+        text-decoration: underline;
+    }
+    p#pinkText {
+        color: pink;
+    }
+    #firstBox {
+        width: 200px;
+        height: 100px;
+        background-color: indianred;
+        padding: 20px;
+        margin: 50px;
+        border: 10px green dotted;
+    }
