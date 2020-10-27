@@ -24,3 +24,54 @@
         margin: 50px;
         border: 10px green dotted;
     }
+
+    .secondBox{
+        width: 200px;
+        height: 100px;
+        background-color: indianred;
+        padding: 20px;
+        margin: 50px;
+        border: 10px green dotted;
+        
+    }
+
+    #leftBox, #middleBox, #rightBox {
+        padding: 20;
+        color: white;
+    }
+
+    #leftBox {
+        background-color: darkgrey;
+        float: left;
+        height: 300px;
+    }
+
+    div {
+        display: block;
+    }
+
+    #middleBox {
+        background-color: gray;
+        float:left;
+        height: 300px;
+    }
+
+    #rightBox {
+        background-color: cyan;
+        height: 300px;
+    }
+
+    #footer{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: darkgoldenrod;
+        text-align: center;
+        height: 50px;
+    }
+
+    body {
+        display: block;
+        margin: 8px;
+    }
