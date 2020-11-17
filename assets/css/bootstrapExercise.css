@@ -24,3 +24,94 @@
     background: lightsalmon;
     color: white;
 }
+
+.saladRow {
+    background-color: darkolivegreen;
+    padding: 30px;
+}
+
+.saladRow p {
+    padding: 5px;
+    color: blue;
+}
+
+.regBentox {
+    margin-top: 20px;
+}
+
+/* regular bento */
+
+.regBentox {
+    background-color: darkturquoise;
+    height: 500px;
+}
+
+/* bootstrap vertical aligment */
+.gridExercise {
+    background-color: lightseagreen;
+    margin: 30px 0;
+ 
+}
+
+.parentTarget {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 10px 0;
+}
+
+.parentTarget div {
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid black;
+    /* border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+
+.gridExercise .height100 {
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+.height100 div {
+    height: 50px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+/* build out div Exercise  */
+
+.divExercise .customRow {
+    height: 300px;
+    align-items: center;
+}
+
+.divExercise .customRow:first-child {
+    background-color: lightpink;
+}
+
+.divExercise .customRow:nth-child(2) {
+    background-color: lightgreen;
+}
+
+
+.customRow div {
+    height: 100px;
+}
+
+.customRow div:first-child {
+    background-color: blue;
+}
+
+.customRow div:nth-child(2) {
+    background-color: red;
+}
+
+.customRow div:nth-child(3) {
+    background-color: violet;
+}
+
+.customRow div:last-child {
+    background-color: green;
+}
