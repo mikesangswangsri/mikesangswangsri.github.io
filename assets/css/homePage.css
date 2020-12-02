@@ -1,100 +1,96 @@
-    body {
-        background-image: url(../images/1586620382_maxresdefault.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    h1{
-		color:orange
-	}
-	p{
-		color:orangered
-	}
-    .pinkText {
-        color:green;
-        text-decoration: underline;
-    }
-    p#pinkText {
-        color: pink;
-    }
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+.h2, h2 {
+    font-size: 2rem;
+}
 
-    h3.pinktest {
-        color:pink
-    }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
 
-    .underline {
-        text-decoration: underline;
-    }
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.customNav {
+    justify-content: space-between;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
 
-    #firstBox {
-        width: 200px;
-        height: 100px;
-        background-color: indianred;
-        padding: 20px;
-        margin: 50px;
-        border: 10px green dotted;
-    }
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
 
-    .secondBox{
-        width: 100%;
-        height: 50px;
-        background-color: indianred;
-        padding: 20px;
-        margin: 50px;
-        border: 10px green dotted;
-        box-shadow: 5px 10px 5px rgba(50, 0, 0, 0.5);
-        
-    }
+.customNav > a.navbar-brand > img {
+    height: 150px;
+    width: auto;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
 
-    #thirdBox {
-        width: 300px;
-        height: 300px;
-        margin: -100px;
-        background-image: linear-gradient(90deg, blue, purple);
-    }
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
 
-    .shadowText {
-        text-shadow: 5px 10px 1px cadetblue;
+.collapse:not(.show) {
+    display: none;
+}
 
-    }
-    }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-    #leftBox, #middleBox, #rightBox {
-        padding: 20;
-        color: white;
-    }
-
-    #leftBox {
-        background-color: darkgrey;
-        float: left;
-        height: 300px;
-    }
-
-    div {
-        display: block;
-    }
-
-    #middleBox {
-        background-color: gray;
-        float:left;
-        height: 300px;
-    }
-
-    #rightBox {
-        background-color: cyan;
-        height: 300px;
-    }
-
-    #footer{
-        position:fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: darkgoldenrod;
-        text-align: center;
-        height: 50px;
-    }
-
-    body {
-        display: block;
-        margin: 8px;
-    }
