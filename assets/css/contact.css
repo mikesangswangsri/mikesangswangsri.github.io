@@ -1,0 +1,17 @@
+.form-group {
+    margin-top: 2rem;
+    border: 2px dotted #34af95;
+    padding: 20px 20px!important;
+}
+
+.customNav > a.navbar-brand > img {
+    height: 100px;
+    width: auto;
+}
+.img-fluid {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}

@@ -1,5 +1,5 @@
 .customNav {
-    background-color: lightseagreen;
+    background-color:lightseagreen;
 }
 
 .customNav li.nav-item.active {
@@ -7,13 +7,7 @@
     text-decoration: underline;
 }
 
-.customNav li.nav-item.active a {
-    color: white!important;
-}
 
 
-.customNav li.nav-item.active a:hover {
-    color: red!important;
-}
 
 
